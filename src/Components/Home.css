@@ -1,0 +1,129 @@
+.homepage{
+    /* background-color:4C35DB 100% ; */
+    background-color: rgb(43, 43, 227);
+    /* background-image:url("../images/LineDesignImage.png"); */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    
+}
+.sideImg{
+    width: 40%;
+    height: 90vh;
+    background-image: url("../images/LineDesignImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+     left: 51%; 
+}
+
+.power_logo{
+    margin: 28px;
+    font-size: 25px;
+    font-weight: 50px;
+    margin-left:150px;
+    margin-top: 35px;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar img{
+    height: 50px;
+    position: relative;
+    left: 145px;
+    top: 40px;
+    height: 30px;
+    width: 30px;
+}
+
+.navbar ul{
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+    left: 300px;
+    color: black;
+    font-size: 19px;
+}
+
+.navbar a{
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    color: white;
+}
+
+.navbar button{
+    position: relative;
+    left: 290px;
+    margin: 25px;
+    padding: 15px;
+    font-size: 19px;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+}
+.btn1{
+    color: white;
+    background-color:rgb(43, 43, 227);;
+    border-style: solid;
+    
+}
+.btn2{
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.second_part{
+    margin-left: 150px;
+
+}
+.second_part{
+    display: flex;
+}
+.text h2{
+    /* height: 100px; */
+    font-size: 50px;
+    color: white;
+    width: 540px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text p{
+    width: 400px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: white;
+}
+
+.text button{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img1{
+    height: 250px;
+    position: relative;
+    left: 80px;
+    top: 130px;
+}
+.img2{
+    height: 400px;
+    position: relative;
+    right: 230px;
+    top: 50px;
+    width: 200px;
+}
+
